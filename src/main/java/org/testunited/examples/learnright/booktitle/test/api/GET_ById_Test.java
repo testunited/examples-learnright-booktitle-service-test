@@ -1,16 +1,12 @@
 package org.testunited.examples.learnright.booktitle.test.api;
 
 import static io.restassured.RestAssured.get;
-import static org.hamcrest.Matchers.hasSize;
 
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
-
-import io.restassured.RestAssured;
 
 @TestInstance(Lifecycle.PER_CLASS)
 public class GET_ById_Test extends BookTitleApiTestBase {
